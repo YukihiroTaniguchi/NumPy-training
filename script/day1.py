@@ -9,6 +9,7 @@ print(Z)
 Z = np.zeros((10, 10))
 print(f"{Z.size * Z.itemsize} bytes")
 
+
 Z = np.zeros(10)
 Z[4] = 1
 print(Z)
